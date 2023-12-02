@@ -1,0 +1,45 @@
+:root {
+  // Font sizes.
+  --font-size-body-small: 14px;
+  --font-size-body-regular: 16px;
+  --font-size-body-large: 24px;
+  --font-size-heading: 64px;
+  --font-size-subheading: 32px;
+
+  // Font styles.
+  --font-style-light: 300;
+  --font-style-regular: 400;
+  --font-style-bold: 700;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--font-size-body-regular);
+  font-weight: var(--font-style-regular);
+}
+
+h1 {
+  font-size: var(--font-size-heading);
+}
+
+h2 {
+  font-size: var(--font-size-subheading);
+  font-weight: var(--font-style-light);
+}
+
+p {
+  padding: 0.5rem;
+}
+
+.content-center > * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gutter {
+  margin-bottom: 1rem;
+}
+
+.padding {
+  padding: 1rem;
+}
